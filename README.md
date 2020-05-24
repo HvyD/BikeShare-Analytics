@@ -32,7 +32,8 @@ The statistics computed include :
 * Numpy
 * Command Line Interface
 
-### To use
+### To play with and use
+* Decompress/Unzip 'Data.zip' file in same location as 'bikeshare.py'
 * Run 'python bikeshare.py' at the command Lines file workspace
 * Folow the prompts
 * Have Fun !!!
