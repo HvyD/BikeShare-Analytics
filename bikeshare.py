@@ -1,3 +1,5 @@
+# imports and Data
+
 import time
 import pandas as pd
 import numpy as np
@@ -6,6 +8,8 @@ CITY_DATA = { 'chicago': 'data/chicago.csv',
               'new york city': 'data/new_york_city.csv',
               'washington': 'data/washington.csv' }
 
+
+# filters what user whats
 
 def get_filters():
     """
@@ -48,6 +52,8 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+
+# load Data Set
 
 def load_data(city, month, day):
 
