@@ -70,13 +70,13 @@ def load_data(city, month, day):
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
     # extract month and day of week from Start Time to create new columns
-
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.strftime('%A')
 
     # filter by month if applicable
     if month != 'all':
-   	 	# use the index of the months list to get the corresponding int
+   	
+ 	# use the index of the months list to get the corresponding int
         months = ['January', 'February', 'March', 'April', 'May', 'June']
         month = months.index(month) + 1
 
