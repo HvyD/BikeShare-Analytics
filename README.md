@@ -1,5 +1,5 @@
 ##### Date Created
-Friday May 22, 2020 @ 0300hrs
+Friday May 22, 2020
 
 # Explore US Bikeshare Data - Python
 This project involves using Python as a tool to explore data related to bike share systems for three major cities in the US: New York City, Chicago and Washington. The core of it is the use of descriptive statistics and data import. The final version of the written script transforms raw data into and interactive and descriptive tool for any user, guiding him through desired pieces of information.
@@ -28,7 +28,7 @@ The statistics computed include :
     - Most common year of birth
 
 ## Software required / used
-* Your Favorite IDE
+* IDE
 * Python 
 * Pandas
 * Numpy
