@@ -37,7 +37,7 @@ The statistics computed include :
 ### To play with and use
 * Run 'python bikeshare.py' at the command Lines file workspace
 * Folow the prompts
-* Have Fun !!!
+* And Most of All....  Have Fun !!!
 
 ##### CREDITS
 * Udacity and the 5 five Nano Degrees I have Completed
