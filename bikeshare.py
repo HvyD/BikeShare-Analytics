@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# imports
-=======
+
 # imports and Data
->>>>>>> documentation
 
 import time
 import pandas as pd
