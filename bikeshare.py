@@ -78,13 +78,13 @@ def load_data(city, month, day):
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
     # extract month and day of week from Start Time to create new columns
-
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.strftime('%A')
 
     # filter by month if applicable
     if month != 'all':
-   	 	# use the index of the months list to get the corresponding int
+   	
+ 	# use the index of the months list to get the corresponding int
         months = ['January', 'February', 'March', 'April', 'May', 'June']
         month = months.index(month) + 1
 
@@ -177,9 +177,9 @@ def user_stats(df):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    #1 Display counts of user types
+    # Display counts of user types
     user_types = df['User Type'].value_counts()
-    #print(user_types)
+    # print(user_types)
     print('User Types:\n', user_types)
 
     # Display counts of gender
@@ -226,8 +226,8 @@ def display_raw_data(df):
         raw_data = input('(yes or no):')
         if raw_data.lower() == 'y':
 
-            #display show_rows number of lines, but display to user as starting from row as 1
-             #e.g. if rows_start = 0 and rows_end = 4, display to user as "rows 1 to 5"
+            # display show_rows number of lines, but display to user as starting from row as 1
+             # e.g. if rows_start = 0 and rows_end = 4, display to user as "rows 1 to 5"
 
 
             print('\n    Displaying rows {} to {}:'.format(rows_start + 1, rows_start + show_rows))
